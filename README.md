@@ -2,9 +2,14 @@
 
 ## Group Members:
 1. Sanket Mahadik - Chrome Extension
-2. Gurleen A - Resume Template
+2. Gurleen - Resume Template
 3. Lal Babu Prasad - Invoice Generator
 4. Jayendra Prakash - Payment Integration
+
+<hr>
+
+###  Mentor - Imamul Haque Khan
+<hr>
 
 ## Project Description:
 
@@ -19,16 +24,20 @@
 ### Resume Template - [DEMO]()
 Developed a web-based application that allows users to easily create professional resumes by selecting from a variety of customizable templates. Users can input their personal information, education, work experience, and skills, and the application generates a formatted resume ready for download or printing. Implemented features for dynamic template preview and real-time editing to enhance user experience and customization options.
 
-### Invoice Generator - [DEMO]()
+### Invoice Generator - [DEMO](https://greatlalbabu.github.io/Invoice-genrator/)
 Created a web-based application that automates the generation of invoices for small businesses. The application allows users to input client details, product or service information, quantities, and prices. It dynamically calculates totals, taxes, and discounts, generating professional-looking invoices in PDF format. Implemented features for customizable invoice templates, automatic numbering, and invoice tracking for efficient management and record-keeping.
 
 ### Payment Integration -  [DEMO](https://jayendra96.github.io/Payment-Integration/)
 This webpage allows users to book vehicles for traveling purposes. Users can select a vehicle of their choice and proceed to pay using any payment method they want
 
+<hr>
+
 ### Technologies Used:
 - HTML/CSS
 - JS
 - API's
-- Manifest Json 
+- Manifest Json
+
+
 
 
