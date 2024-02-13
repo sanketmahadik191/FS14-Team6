@@ -21,7 +21,7 @@
   unwanted bookmarks. Additionally, users can seamlessly navigate back to their favorite moments 
   in videos by playing them directly from their saved bookmarks.
 
-### Resume Template - [DEMO]()
+### Resume Template - [DEMO](https://sanketmahadik191.github.io/FS14-Team6/resume_template/templateSelection.html)
 Developed a web-based application that allows users to easily create professional resumes by selecting from a variety of customizable templates. Users can input their personal information, education, work experience, and skills, and the application generates a formatted resume ready for download or printing. Implemented features for dynamic template preview and real-time editing to enhance user experience and customization options.
 
 ### Invoice Generator - [DEMO](https://greatlalbabu.github.io/Invoice-genrator/)
