@@ -50,4 +50,3 @@ Feel free to customize the sections further or add any additional information th
 
 
 
-**Hosted Link:**---------- https://jayendra96.github.io/Payment-Integration/
