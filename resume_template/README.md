@@ -1,8 +1,8 @@
 # Resume Template Project
 
-## repo : https://github.com/greatlalbabu/Invoice-genrator
+## repo :https://github.com/ashley6dec/JavaScript
 
-## Hosted Link : https://greatlalbabu.github.io/Invoice-genrator/
+## Hosted Link :https://sanketmahadik191.github.io/FS14-Team6/resume_template/index1.html
 
 # Resume Template
 
