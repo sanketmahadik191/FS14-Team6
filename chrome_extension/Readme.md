@@ -5,6 +5,9 @@ YouTube Bookmarks Extension is a Chrome browser extension that enhances the YouT
 ## Hosted Link
 👉🏻 [Click Me For Live Demo](Assets/Demo-ChromeExtension.mp4)
 
+[![Video Preview](Assets/play.png)](Assets/Demo-ChromeExtension.mp4)
+
+
 ## Technologies Used
 
  - ### HTML / CSS 
