@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+                    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+                   
+                   <style>
+                    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+                    h1{
+                        color:rgb(0, 0, 0);
+                    }
+                        
+                    
+                    </style>
+
+</head>
+<body>
+   
+
+        
+
+
+        <!-- third page to write the header content -->
+        
+        <div class="container3">
+            <div class="container3Items">
+
+                <!-- where you actually write cv -->
+                <div class="leftContainer1">
+                  
+                  
+                  <!-- header section  -->
+                  <div1>
+                    <h1>Lets start with the header</h1>
+                    <br>
+                    <input class="color" type="color" name="" id="" value="#419F41"/>
+                    <br>
+                    <h3>Enter your full name and 
+                         way for employers to contact you <span>&#40;</span>atleast one <span>&#41;</span>
+                    </h3>
+                    <br>
+                    <br>
+                    <br>
+                <div class="form1">
+                    <form class="headerDetails">
+                        <label for ="name">First Name: </label><br>
+                        <input type="text" id="name" name="name">
+                        
+                        <br>
+
+                        <label for ="name">Last Name: </label><br>
+                        <input type="text" id="name1" name="name">
+                        <br>
+
+                        <label for ="city">City: </label><br>
+                        <input type="text" id="city" name="city">
+                        <!-- <button id="input-btn" type="button">
+                          Get input value
+                      </button> -->
+                        <br>
+
+
+                        <label for ="country">Country: </label><br>
+                        <input type="text" id="country" name="country">
+                        <br>
+
+                        <label for ="pinCode">Pin Code: </label><br>
+                        <input type="number" id="pinCode" name="pinCode">
+                        <br>
+
+                        <label for ="phone">Phone: </label><br>
+                        <input type="number" id="phone" name="phone">
+                        <br>
+
+                        <label for ="email">Email Id: </label><br>
+                        <input type="text" id="email" name="email">
+                        <br>
+
+                        
+                    </form>
+                    </div>
+                    </div1>
+               
+
+                    <!-- experiance section -->
+                    <div2>
+                      <h1>Enter your Experience </h1>
+                    <br>
+                    <br>
+                    <br>
+                <div class="form2">
+                    <form class="headerDetails">
+                        <label for ="jobTitle">Job Title: </label><br>
+                      
+                            
+                            <select class="form-control dropdown" id="occupation" name="occupation">
+                              <option value="" selected="selected" disabled="disabled">-- select one --</option>
+                              <optgroup label="Healthcare Practitioners and Technical Occupations:">
+                                <option value="1">-  Chiropractor</option>
+                                <option value="2">-  Dentist</option>
+                                <option value="3">-  Dietitian or Nutritionist</option>
+                                <option value="4">-  Optometrist</option>
+                                <option value="5">-  Pharmacist</option>
+                                <option value="6">-  Physician</option>
+                                <option value="7">-  Physician Assistant</option>
+                                <option value="8">-  Podiatrist</option>
+                                <option value="9">-  Registered Nurse</option>
+                                <option value="10">-  Therapist</option>
+                                <option value="11">-  Veterinarian</option>
+                                <option value="12">-  Health Technologist or Technician</option>
+                                <option value="13">-  Other Healthcare Practitioners and Technical Occupation</option>
+                              </optgroup>
+                              <optgroup label="Healthcare Support Occupations:">
+                                <option value="14">-  Nursing, Psychiatric, or Home Health Aide</option>
+                                <option value="15">-  Occupational and Physical Therapist Assistant or Aide</option>
+                                <option value="16">-  Other Healthcare Support Occupation</option>
+                              </optgroup>
+                              <optgroup label="Business, Executive, Management, and Financial Occupations:">
+                                <option value="17">-  Chief Executive</option>
+                                <option value="18">-  General and Operations Manager</option>
+                                <option value="19">-  Advertising, Marketing, Promotions, Public Relations, and Sales Manager</option>
+                                <option value="20">-  Operations Specialties Manager (e.g., IT or HR Manager)</option>
+                                <option value="21">-  Construction Manager</option>
+                                <option value="22">-  Engineering Manager</option>
+                                <option value="23">-  Accountant, Auditor</option>
+                                <option value="24">-  Business Operations or Financial Specialist</option>
+                                <option value="25">-  Business Owner</option>
+                                <option value="26">-  Other Business, Executive, Management, Financial Occupation</option>
+                              </optgroup>
+                              <optgroup label="Architecture and Engineering Occupations:">
+                                <option value="27">-  Architect, Surveyor, or Cartographer</option>
+                                <option value="28">-  Engineer</option>
+                                <option value="29">-  Other Architecture and Engineering Occupation</option>
+                              </optgroup>
+                              <optgroup label="Education, Training, and Library Occupations:">
+                                <option value="30">-  Postsecondary Teacher (e.g., College Professor)</option>
+                                <option value="31">-  Primary, Secondary, or Special Education School Teacher</option>
+                                <option value="32">-  Other Teacher or Instructor</option>
+                                <option value="33">-  Other Education, Training, and Library Occupation</option>
+                              </optgroup>
+                              <optgroup label="Other Professional Occupations:">
+                                <option value="34">-  Arts, Design, Entertainment, Sports, and Media Occupations</option>
+                                <option value="35">-  Computer Specialist, Mathematical Science</option>
+                                <option value="36">-  Counselor, Social Worker, or Other Community and Social Service Specialist</option>
+                                <option value="37">-  Lawyer, Judge</option>
+                                <option value="38">-  Life Scientist (e.g., Animal, Food, Soil, or Biological Scientist, Zoologist)</option>
+                                <option value="39">-  Physical Scientist (e.g., Astronomer, Physicist, Chemist, Hydrologist)</option>
+                                <option value="40">-  Religious Worker (e.g., Clergy, Director of Religious Activities or Education)</option>
+                                <option value="41">-  Social Scientist and Related Worker</option>
+                                <option value="42">-  Other Professional Occupation</option>
+                              </optgroup>
+                              <optgroup label="Office and Administrative Support Occupations:">
+                                <option value="43">-  Supervisor of Administrative Support Workers</option>
+                                <option value="44">-  Financial Clerk</option>
+                                <option value="45">-  Secretary or Administrative Assistant</option>
+                                <option value="46">-  Material Recording, Scheduling, and Dispatching Worker</option>
+                                <option value="47">-  Other Office and Administrative Support Occupation</option>
+                              </optgroup>
+                              <optgroup label="Services Occupations:">
+                                <option value="48">-  Protective Service (e.g., Fire Fighting, Police Officer, Correctional Officer)</option>
+                                <option value="49">-  Chef or Head Cook</option>
+                                <option value="50">-  Cook or Food Preparation Worker</option>
+                                <option value="51">-  Food and Beverage Serving Worker (e.g., Bartender, Waiter, Waitress)</option>
+                                <option value="52">-  Building and Grounds Cleaning and Maintenance</option>
+                                <option value="53">-  Personal Care and Service (e.g., Hairdresser, Flight Attendant, Concierge)</option>
+                                <option value="54">-  Sales Supervisor, Retail Sales</option>
+                                <option value="55">-  Retail Sales Worker</option>
+                                <option value="56">-  Insurance Sales Agent</option>
+                                <option value="57">-  Sales Representative</option>
+                                <option value="58">-  Real Estate Sales Agent</option>
+                                <option value="59">-  Other Services Occupation</option>
+                              </optgroup>
+                              <optgroup label="Agriculture, Maintenance, Repair, and Skilled Crafts Occupations:">
+                                <option value="60">-  Construction and Extraction (e.g., Construction Laborer, Electrician)</option>
+                                <option value="61">-  Farming, Fishing, and Forestry</option>
+                                <option value="62">-  Installation, Maintenance, and Repair</option>
+                                <option value="63">-  Production Occupations</option>
+                                <option value="64">-  Other Agriculture, Maintenance, Repair, and Skilled Crafts Occupation</option>
+                              </optgroup>
+                              <optgroup label="Transportation Occupations:">
+                                <option value="65">-  Aircraft Pilot or Flight Engineer</option>
+                                <option value="66">-  Motor Vehicle Operator (e.g., Ambulance, Bus, Taxi, or Truck Driver)</option>
+                                <option value="67">-  Other Transportation Occupation</option>
+                              </optgroup>
+                              <optgroup label="Other Occupations:">
+                                <option value="68">-  Military</option>
+                                <option value="69">-  Homemaker</option>
+                                <option value="70">-  Other Occupation</option>
+                                <option value="71">-  Don't Know</option>
+                                <option value="72">-  Not Applicable</option>
+                              </optgroup>
+                            </select>
+                     
+                        <br>
+
+                        <label for ="employer">Employer: </label><br>
+                        <input type="text" id="employer" name="employer">
+                        <br>
+
+                        <label for ="city1">City: </label><br>
+                        <input type="text" id="city1" name="city1">
+                        <br>
+
+
+                        <label for ="country1">Country: </label><br>
+                        <input type="text" id="country1" name="country1">
+                        <br>
+
+                        <label for ="startDate">Start Date: </label><br>
+                        <input type="date" id="startDate" name="startDate">
+                        <br>
+
+                        <label for ="endDate">End Date: </label><br>
+                        <input type="date" id="endDate" name="endDate">
+                        <br>
+
+                       
+
+                        
+                    </form>
+                    </div>
+                    <input type="checkbox" id="currentlyWorking" name="currentlyWorking">
+                    <label for="currentlyWorking"> I am currently working here</label>
+                    </div2>
+
+
+                    <!-- education section -->
+                    <div3>
+                      <h1>Enter your Education </h1>
+                <br>
+                <br>
+                <br>
+            <div class="form1">
+                <form class="headerDetails">
+                    <label for ="school">School Name: </label><br>
+                    <input type="text" id="school" name="school">
+                    <br>
+
+                    <label for ="schoolLocation">School Location: </label><br>
+                    <input type="text" id="schoolLocation" name="schoolLocation">
+                    <br>
+
+                    <label for ="qualification">Qualification: </label><br>
+                    <input type="text" id="qualification" name="qualification">
+                    <br>
+
+
+                    <label for ="field">Field Of Study: </label><br>
+                    <input type="text" id="field" name="field">
+                    <br>
+
+                    <label for ="gradYear">Year of Passing Out: </label><br>
+                    <input type="number" id="gradYear" name="gradYear">
+                    <br>
+
+                    
+                   
+                </form>
+                </div>
+                    </div3>
+
+                    <!-- skills section -->
+                    <div4>
+                      <h1>Add your Skills </h1>
+                 
+                 
+                      <textarea id="skills" name="skills" rows="20" cols="80" placeholder="//Add your skills here" color="black">
+                          </textarea>
+                          <br>
+                          <br>
+                          
+                  
+                          <label for ="skillSet1">Choose skill 1: </label><br>
+                        
+                              
+                              <select class="form-control dropdown" id="skillSet1" name="skillSet1">
+                                <option value="" selected="selected" disabled="disabled">-- select one --</option>
+                                <optgroup label="Hard Skills">
+                                  <option value="1">-  Technical skills
+                                  </option>
+                                  <option value="2">-  Language skills
+                                  </option>
+                                  <option value="3">-  Design skills
+                                  </option>
+                                  <option value="4">-  Analytical skills
+                                  </option>
+                                  
+                                </optgroup>
+                                <optgroup label="Soft Skills:">
+                                  <option value="5">-  Communication skills
+                                  </option>
+                                  <option value="6">-  Interpersonal skills
+                                  </option>
+                                  <option value="7">- Critical thinking skills
+                                  </option>
+                                  <option value="8">- Leadership skills
+  
+                                  </option>
+                                </optgroup>
+  
+                              </select>
+                              <br>
+                              <label for ="skillSet2">Choose skill 2: </label><br>
+                        
+                              
+                              <select class="form-control dropdown" id="skillSet2" name="skillSet2">
+                                <option value="" selected="selected" disabled="disabled">-- select one --</option>
+                                <optgroup label="Hard Skills">
+                                  <option value="1">-  Technical skills
+                                  </option>
+                                  <option value="2">-  Language skills
+                                  </option>
+                                  <option value="3">-  Design skills
+                                  </option>
+                                  <option value="4">-  Analytical skills
+                                  </option>
+                                  
+                                </optgroup>
+                                <optgroup label="Soft Skills:">
+                                  <option value="5">-  Communication skills
+                                  </option>
+                                  <option value="6">-  Interpersonal skills
+                                  </option>
+                                  <option value="7">- Critical thinking skills
+                                  </option>
+                                  <option value="8">- Leadership skills
+  
+                                  </option>
+                                </optgroup>
+  
+                              </select>
+                              <br>
+                              <label for ="skillSet3">Choose skill 3: </label><br>
+                        
+                              
+                              <select class="form-control dropdown" id="skillSet3" name="skillSet3">
+                                <option value="" selected="selected" disabled="disabled">-- select one --</option>
+                                <optgroup label="Hard Skills">
+                                  <option value="1">-  Technical skills
+                                  </option>
+                                  <option value="2">-  Language skills
+                                  </option>
+                                  <option value="3">-  Design skills
+                                  </option>
+                                  <option value="4">-  Analytical skills
+                                  </option>
+                                  
+                                </optgroup>
+                                <optgroup label="Soft Skills:">
+                                  <option value="5">-  Communication skills
+                                  </option>
+                                  <option value="6">-  Interpersonal skills
+                                  </option>
+                                  <option value="7">- Critical thinking skills
+                                  </option>
+                                  <option value="8">- Leadership skills
+  
+                                  </option>
+                                </optgroup>
+  
+                              </select>
+                              <br>
+                    </div4>
+
+                    <!-- summary section -->
+                    <div5>
+
+                      <h1>Add your Summary</h1>
+                                    
+                                    
+                                        <textarea id="summary" name="summary" rows="20" cols="80" placeholder="//Add your skills here" color="black">
+                                            </textarea>
+                                            <br>
+                                            <br>
+                                            
+                                    
+                                          
+                                          
+                                                <br>
+
+                    </div5>
+                    <div id=”editor”></div>
+
+                
+                    
+                    <p>
+                    
+                    <button id=”generatePDF”>generate PDF</button>
+                    
+                    </p>
+                    
+                
+                </div>
+               
+
+                <!-- how it will show in the chosen template -->
+                <div class="rightContainer1">
+         
+                    <!-- Page Container -->
+                    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+                    
+                      <!-- The Grid -->
+                      <div class="w3-row-padding">
+                      
+                        <!-- Left Column -->
+                        <div class="w3-third">
+                        
+                          <div class="w3-white w3-text-grey w3-card-4">
+                            <div class="w3-display-container">
+                             
+                              
+                              
+                                <img src="https://images.unsplash.com/photo-1707489636403-c539c2cdc101?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D" style="width:100%" alt="Avatar">
+                                <div class="w3-display-bottomleft w3-container w3-text-black">
+                                  <h2 id="nameCV" style="color:white"></h2>
+                                </div>
+                            </div>
+                           
+                            <div class="w3-container">
+                              <div class="ele">
+                               <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i><span id="cityCV"></span></div>
+                           
+                               <div class="ele"><span id="countryCV"></span></div>
+ <br>
+                               <div class="ele">
+                             <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i><span id="pinCV"></span></div>
+                             <br>
+                                 <div class="ele"> 
+                              <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><span id="mailCV"></span></div>
+                                 <br>
+                              <div class="ele">
+                              <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><span id="phoneCV"></span></div>
+                               <hr>
+                     
+                    
+                              <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+                              <p id="skillsCV"></p>
+                              <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%"></div>
+                              </div>
+                              <p></p>
+                              <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+                                  <div class="w3-center w3-text-white"></div>
+                                </div>
+                              </div>
+                              <p></p>
+                              <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%"></div>
+                              </div>
+                              <p></p>
+                              <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%"></div>
+                              </div>
+                              <br>
+                    
+                              
+                             
+                              <br>
+                            </div>
+                          </div><br>
+                    
+                        <!-- End Left Column -->
+                        </div>
+                    
+                        <!-- Right Column -->
+                        <div class="w3-twothird">
+                        
+                          <div class="w3-container w3-card w3-white w3-margin-bottom">
+                            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+                            <div class="w3-container">
+                              <h5 id="experienceCV"><b>Your work experience</b></h5>
+                              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Start Date<span id="startDateCV"></span></h6>
+                              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>End Date<span id="endDateCV"></span></h6>
+                              <p id="jobDetailsCV">Your Job Details</p>
+                              <hr>
+                            </div>
+                        
+                          </div>
+                    
+
+
+                         <div class="w3-container w3-card w3-white">
+                        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+                        <div class="w3-container">
+                          <h5 id="educationCV"><b>Your Education</b></h5>
+                         
+                          <p></p>
+                          <hr>
+                        </div>
+                  
+                     
+                      </div>
+
+
+
+                      
+                          <div class="w3-container w3-card w3-white">
+                                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Summary</h2>
+                                <div class="w3-container">
+                                  <h5 ><b>About Yourself </b></h5>
+                            
+                                  <p id="summaryCV"></p>
+                                  <hr>
+                                </div>
+                                </div>
+                    
+                        <!-- End Right Column -->
+                        </div>
+                        
+                      <!-- End Grid -->
+                      </div>
+                      
+                      <!-- End Page Container -->
+                    </div>
+                
+                    
+                  
+                    
+                      
+                </div>
+            </div>
+        </div>
+        
+
+
+      
+      
+    
+
+        
+
+        <script src="./scriptHeader.js"></script>
+</body>
+</html>
