@@ -5,6 +5,7 @@ This project is a part of the Geekathon conducted by Geekster. The goal of this 
 
 
 **Overview**
+
 This webpage allows users to book vehicles for traveling purposes. Users can select a vehicle of their choice and proceed to pay using any payment method they want.
 
 
@@ -17,7 +18,7 @@ Payment Integration: Razorpay payment integration is utilized for secure and con
 
 User Interface: The UI is designed to provide easy navigation and display essential information about the company. Contact details are also provided for further inquiries.
 
-Usage
+**Usage**
 
 Visit the hosted link: **https://jayendra96.github.io/Payment-Integration/**
 
