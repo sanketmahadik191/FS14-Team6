@@ -1,5 +1,5 @@
 
-## Vehicle Booking and Payment Integration Webpage**
+## Vehicle Booking and Payment Integration Webpage
 
 This project is a part of the Geekathon conducted by Geekster. The goal of this project was to integrate a payment method into a webpage for booking vehicles for travel.
 
