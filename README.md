@@ -6,7 +6,7 @@
 3. Lal Babu Prasad - Invoice Generator
 4. Jayendra Prakash - Payment Integration
 
-###  Mentor - Imamul Haque Khan
+### Mentor - Imamul Haque Khan:
 
 ## Project Description:
 
