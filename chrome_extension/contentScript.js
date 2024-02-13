@@ -4,7 +4,7 @@
     let currentVideoBookmarks = [];
 
 
-    // fetching previous bookmarks associated with video 
+    // fetching previous bookmarks associated with video push
     const fetchBookmarks = () => {
         return new Promise((resolve) => {
             chrome.storage.sync.get([currentVideo], (obj) => {
