@@ -3,7 +3,7 @@
 YouTube Bookmarks Extension is a Chrome browser extension that enhances the YouTube video watching experience by allowing users to easily add bookmarks to specific timestamps in videos. With this extension, users can manage their bookmarks within the extension's interface, including editing titles or descriptions and deleting unwanted bookmarks. Additionally, users can seamlessly navigate back to their favorite moments in videos by playing them directly from their saved bookmarks.
 
 ## Hosted Link
-👉🏻 [Click Me For Live Demo](https://drive.google.com/file/d/1k7qzolMOqe5rLqfT2YhNoT-0olG4LWmM/view?usp=sharing))
+👉🏻 [Click Me For Live Demo](https://drive.google.com/file/d/1k7qzolMOqe5rLqfT2YhNoT-0olG4LWmM/view?usp=sharing)
 
 ## Technologies Used
 
