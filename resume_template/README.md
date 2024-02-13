@@ -36,13 +36,13 @@ Optionally, deploy the HTML file along with the CSS  and Javascript file to a we
 -templateSelection: select a template
 Feel free to modify the HTML and CSS to fit your specific needs. Update the styles, colors, and content to match your personal preferences.
 
-License
+## License
 This resume template is open-source and available under the MIT License. Feel free to use, modify, and distribute it for personal or professional use.
 
-Author
+## Author
 Gurleen
 
-Contributing
+## Contributing
 If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
 
-Happy coding!
+## Happy coding!
