@@ -28,7 +28,7 @@ This project is a simple web-based invoice generator created using HTML, CSS, an
 
 Optionally, deploy the HTML file along with the CSS  and Javascript file to a web hosting service for online accessibility.
 
-##Project Structure
+## Project Structure
 -index.html: The main HTML file containing the resume template.
 -style.css: Cascading Style Sheets (CSS) for styling the template.
 -resumeTemplate1: Template 1
