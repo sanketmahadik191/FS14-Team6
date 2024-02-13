@@ -1,6 +1,6 @@
 import { getActiveTabURL } from "./utlis.js";
 
-
+// create new bookmark (bookmarks - div where bookmarks appends),(bookmark - represent bookmark data)
 const addNewBookmark = (bookmarks, bookmark) => {
 
     // Create a new div element for the bookmark
@@ -38,8 +38,7 @@ const addNewBookmark = (bookmarks, bookmark) => {
     bookmarks.appendChild(newBookmarkElement);
 };
 
-
-// Add and set buttons and contant to bookmark
+// set attribute to each bookmark
 const setBookmarkAttributes = (src, eventListener, controlParentElement) => {
     const controlElement = document.createElement("img");
 
@@ -50,6 +49,7 @@ const setBookmarkAttributes = (src, eventListener, controlParentElement) => {
     controlParentElement.appendChild(controlElement);
 };
 
+// display bookmarks on webpage  using array
 const viewBookmarks = (currentBookmarks = []) => {
     const bookmarksElement = document.getElementById("bookmarks");
     bookmarksElement.innerHTML = "";
@@ -97,6 +97,7 @@ const onDelete = async(e) => {
     );
 };
 
+// get active tab url from util.js 
 document.addEventListener("DOMContentLoaded", async() => {
     // Get the URL of the active tab
     const activeTab = await getActiveTabURL();

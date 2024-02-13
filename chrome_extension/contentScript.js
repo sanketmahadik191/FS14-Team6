@@ -3,14 +3,23 @@
     let currentVideo = "";
     let currentVideoBookmarks = [];
 
+
+    // fetching previous bookmarks associated with video 
     const fetchBookmarks = () => {
         return new Promise((resolve) => {
             chrome.storage.sync.get([currentVideo], (obj) => {
-                resolve(obj[currentVideo] ? JSON.parse(obj[currentVideo]) : []);
+                if (chrome.runtime.lastError) {
+                    console.error("Error fetching bookmarks:", chrome.runtime.lastError.message);
+                    resolve([]); // Return an empty array if context is invalidated
+                } else {
+                    resolve(obj[currentVideo] ? JSON.parse(obj[currentVideo]) : []);
+                }
             });
         });
     };
 
+
+    // this function haddles event when user click on add bookamark
     const addNewBookmarkEventHandler = async(e) => {
         let details = window.prompt("Add Heading To Bookmark");
         const currentTime = youtubePlayer.currentTime;
@@ -29,6 +38,7 @@
         });
     };
 
+    // when new video loaded its add bookmark button
     const newVideoLoaded = async() => {
         const bookmarkBtnExists =
             document.getElementsByClassName("bookmark-btn")[0];
@@ -53,6 +63,7 @@
         }
     };
 
+    // get message from background script  , haddle bookamarks function such as play delete
     chrome.runtime.onMessage.addListener((obj, sender, response) => {
         const { type, value, videoId } = obj;
 
@@ -74,6 +85,7 @@
     });
 })();
 
+// return timestamp to store in bookmark
 const getTime = (t) => {
     var date = new Date(0);
     date.setSeconds(t);
