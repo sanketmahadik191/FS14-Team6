@@ -3,15 +3,15 @@
     let currentVideo = "";
     let currentVideoBookmarks = [];
 
-    const fetchBookmarks = () => {
+       const fetchBookmarks = () => {
         return new Promise((resolve) => {
-
-             if (chrome.runtime.lastError) {
-            console.error("Extension context invalidated:", chrome.runtime.lastError.message);
-            return resolve([]); // Return an empty array if context is invalidated
-        }
             chrome.storage.sync.get([currentVideo], (obj) => {
-                resolve(obj[currentVideo] ? JSON.parse(obj[currentVideo]) : []);
+                if (chrome.runtime.lastError) {
+                    console.error("Error fetching bookmarks:", chrome.runtime.lastError.message);
+                    resolve([]); // Return an empty array if context is invalidated
+                } else {
+                    resolve(obj[currentVideo] ? JSON.parse(obj[currentVideo]) : []);
+                }
             });
         });
     };
